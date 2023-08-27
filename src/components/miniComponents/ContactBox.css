@@ -1,0 +1,76 @@
+.contactTypeBox{
+  border: 0.05rem solid rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 15rem;
+  transition: all 0.3s ease-in-out;
+}
+.contactTypeBox:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.contactBoxUpSection{
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.contactTypeIcon{
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  margin-right: 0.9rem;
+  background-color: var(--lightBlue);
+  color: var(--blue);
+}
+.contactTypeText{
+  gap: 0.1rem;
+}
+.contactTypeName{
+  font-size: 1rem;
+}
+.contactBoxDownSection{
+  width: 13rem;
+}
+.contactBtn{
+  width: 100%;
+  color: var(--blue);
+  background: var(--lightBlue);
+  font-weight: 600;
+}
+.contactModes{
+  display: flex;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 480px) {
+  .contactTypeBox{
+    width: 15rem;
+  }
+  .contactBoxUpSection{
+    font-size: 1.5rem;
+  }
+  .contactBtn{
+    transform: translateX(-2rem);
+    width: 70%;
+    color: var(--blue);
+    background: var(--lightBlue);
+    font-weight: 600;
+  }
+  .contactTypeNumber{
+    font-size: 0.8rem;
+  }
+  .contactBtn:hover{
+    transform: translateX(-2rem);
+  }
+  .contactModes{
+    gap:1rem;
+  }
+
+  .contactBoxDownSection button{
+    transform: translateX(0);
+    width: 100%;
+  }
+  .contactBoxDownSection button:hover{
+    transform: translateX(0);
+  }
+}

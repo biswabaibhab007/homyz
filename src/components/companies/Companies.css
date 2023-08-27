@@ -1,0 +1,16 @@
+.c-container{
+  justify-content: space-around;
+  gap: 1rem;
+}
+.c-container img{
+  width: 10rem;
+}
+
+@media (max-width: 768px) {
+  .c-container{
+    flex-direction: column;
+  }
+  .c-container img{
+    width: 7rem;
+  }
+}

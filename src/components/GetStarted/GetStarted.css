@@ -1,0 +1,35 @@
+.innerContainer{
+  background-color: #4161df;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  border: 0.5rem solid #5d77d6;
+}
+.heading{
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  color: white;
+}
+span p{
+  color: white;
+  line-height: 0.5rem;
+  text-align: center;
+}
+.getStartedBtn{
+  margin-top: 3rem;
+  color: #4066ff;
+  background: #eeeeff;
+}
+
+@media (max-width: 480px) {
+  .innerContainer{
+    padding: 0.8rem;
+  }
+  .innerContainer .heading{
+    font-size: 1.3rem;
+  }
+  span p{
+    font-size: 0.8rem;
+  }
+  
+}
